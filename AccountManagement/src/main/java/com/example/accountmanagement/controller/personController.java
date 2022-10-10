@@ -43,6 +43,12 @@ public class personController {
         }
 
     }
+    @PostMapping("/person")
+    public ResponseEntity<Person> newPerson(@RequestBody Person person) {
+//        personDatabase.save(person);
+
+        return new ResponseEntity<>(personDatabase.save(person), HttpStatus.OK);
+    }
 
     @PutMapping("/person/{id}")
     public ResponseEntity<Person> updateTeacher(@PathVariable("id") long id, @RequestBody Person person) {
