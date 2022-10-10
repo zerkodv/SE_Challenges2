@@ -29,7 +29,6 @@ public class personController {
     @GetMapping("/person/{id}")
     public ResponseEntity<Person> getPersonById(@PathVariable("id") long id) {
         try {
-            //check if teacher exist in database
             Person personObj = getPersonRec(id);
 
             if (personObj != null) {
@@ -55,7 +54,6 @@ public class personController {
     @PutMapping("/person/{id}")
     public ResponseEntity<Person> updateTeacher(@PathVariable("id") long id, @RequestBody Person person) {
 
-        //check if teacher exist in database
         Person personObj = getPersonRec(id);
 
         if (personObj != null) {
@@ -72,6 +70,33 @@ public class personController {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
+
+    @DeleteMapping("/person/{id}")
+    public ResponseEntity<HttpStatus> deletePersonById(@PathVariable("id") long id) {
+        try {
+            Person person = getPersonRec(id);
+
+            if (person != null) {
+                personDatabase.deleteById(id);
+                return new ResponseEntity<>(HttpStatus.OK);
+            }
+
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+    @DeleteMapping("/person")
+    public ResponseEntity<HttpStatus> deleteAllPerson() {
+        try {
+            personDatabase.deleteAll();
+            return new ResponseEntity<>(HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+    }
 
 
     private Person getPersonRec(long id) {
