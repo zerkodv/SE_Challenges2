@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f42592-16e5-4a6e-9e90-021643a16ac8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/Person/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Person/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountManagement/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Person/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Person/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Person/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/accountmanagement/AccountManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Person/src/main/java/com/example/accountmanagement/AccountManagementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/accountmanagement/controller/personController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Person/src/main/java/com/example/accountmanagement/controller/personController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/accountmanagement/dao/PersonDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Person/src/main/java/com/example/accountmanagement/dao/PersonDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/accountmanagement/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Person/src/main/java/com/example/accountmanagement/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Person/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/accountmanagement/AccountManagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Person/src/test/java/com/example/accountmanagement/AccountManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +40,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Tugas/SE_Challenges_2/SE_Challenges_Account",
+    "last_opened_file_path": "D:/Tugas/SE_Challenges_2/SE_Challenges_Person",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "74cca4c51000e41f22a7245330537259"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tugas\SE_Challenges_2\SE_Challenges_Person" />
+      <recent name="D:\Tugas\SE_Challenges_2\SE_Challenges_Person\Person" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Tugas\SE_Challenges_2\SE_Challenges_Person\Person" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="AccountManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="AccountManagement" />
@@ -78,7 +76,7 @@
       <workItem from="1665386095903" duration="2878000" />
       <workItem from="1665389475153" duration="67000" />
       <workItem from="1665389551282" duration="2783000" />
-      <workItem from="1665403105211" duration="323000" />
+      <workItem from="1665403105211" duration="1512000" />
     </task>
     <servers />
   </component>
