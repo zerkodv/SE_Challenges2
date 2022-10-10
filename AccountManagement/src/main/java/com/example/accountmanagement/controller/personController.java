@@ -43,8 +43,26 @@ public class personController {
         }
 
     }
-    
 
+    @PutMapping("/teacher/{id}")
+    public ResponseEntity<Person> updateTeacher(@PathVariable("id") long id, @RequestBody Person person) {
+
+        //check if teacher exist in database
+        Person personObj = getPersonRec(id);
+
+        if (personObj != null) {
+            personObj.setName(person.getName());
+            personObj.setAddress(person.getAddress());
+            personObj.setPostcode(person.getPostcode());
+            personObj.setAge(person.getAge());
+            personObj.setJob(person.getJob());
+            personObj.setEmail(person.getEmail());
+            personObj.setPhoneno(person.getPhoneno());
+            return new ResponseEntity<>(personDatabase.save(personObj), HttpStatus.OK);
+        }
+
+        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
 
 
 
