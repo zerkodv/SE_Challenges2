@@ -44,7 +44,7 @@ public class personController {
 
     }
 
-    @PutMapping("/teacher/{id}")
+    @PutMapping("/person/{id}")
     public ResponseEntity<Person> updateTeacher(@PathVariable("id") long id, @RequestBody Person person) {
 
         //check if teacher exist in database
