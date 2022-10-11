@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06f42592-16e5-4a6e-9e90-021643a16ac8" name="Changes" comment="" />
+    <list default="true" id="06f42592-16e5-4a6e-9e90-021643a16ac8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Tugas/SE_Challenges_2/SE_Challenges_Account",
+    "last_opened_file_path": "D:/Tugas/SE_Challenges_2/SE_Challenges_Person/Person/src/main/java/com/example/accountmanagement/exception",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -54,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tugas\SE_Challenges_2\SE_Challenges_Person\Person\src\main\java\com\example\accountmanagement\exception" />
       <recent name="D:\Tugas\SE_Challenges_2\SE_Challenges_Person" />
       <recent name="D:\Tugas\SE_Challenges_2\SE_Challenges_Person\Person" />
     </key>
@@ -84,7 +87,7 @@
       <workItem from="1665403105211" duration="3978000" />
       <workItem from="1665408884730" duration="646000" />
       <workItem from="1665411178187" duration="711000" />
-      <workItem from="1665412426029" duration="1398000" />
+      <workItem from="1665412426029" duration="2329000" />
     </task>
     <servers />
   </component>

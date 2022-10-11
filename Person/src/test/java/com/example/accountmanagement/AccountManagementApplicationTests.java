@@ -1,8 +1,8 @@
 package com.example.accountmanagement;
 
 import com.example.accountmanagement.controller.PersonController;
-import com.example.accountmanagement.dao.PersonDatabase;
-import org.junit.jupiter.api.Assertions;
+
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.function.Executable;
@@ -20,7 +20,7 @@ class AccountManagementApplicationTests {
 
     @Test
     void contextLoads() {
-        Assertions.assertAll((Executable) personController);
+        Assertions.assertThat(personController);
     }
 
 }
